@@ -332,16 +332,15 @@ div#archive {
   color: #ffffff;
 }
 
-
-@import "//at.alicdn.com/t/font_2264842_b004iy0kk2b.css";
-.iconfont {
-  font-family: "iconfont" !important;
-  /* 这里可以自定义图标大小 */
-  font-size: 3em;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+svg.icon {
+  width: 1em; height: 1em;
+  /* width和height定义图标的默认宽度和高度*/
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
 }
+
+
 /* 若已经在项目设置中勾选了彩色选项，则无需再定义图标颜色*/
 .icon-rat:before {
   color: #85c3de;
